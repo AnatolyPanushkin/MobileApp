@@ -15,6 +15,7 @@ composeBom = "2024.09.03"
 appcompat = "1.7.0"
 lifecycleViewmodelComposeVersion = "2.8.6"
 material = "1.12.0"
+mockkVersion = "1.13.13"
 navigationCompose = "2.8.2"
 retrofitVersion = "2.11.0"
 timber = "5.0.1"
@@ -45,6 +46,7 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroidxCompose" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+mockk-mockk = { module = "io.mockk:mockk", version.ref = "mockkVersion" }
 retrofit2-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofitVersion" }
 androidx-ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
